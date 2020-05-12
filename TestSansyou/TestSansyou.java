@@ -1,8 +1,8 @@
 class TestSansyou {
     public static void main(String[] args) {
         
-        Car car1 = new Car(); //car1のインスタンスを生成
-        Car car2 = new Car(); //car2のインスタンスを生成
+        Car car1 = new Car();
+        Car car2 = car1; //この行のみを変更
 
         car1.setCarName("アクア");
         car2.setCarName("N-Box");
